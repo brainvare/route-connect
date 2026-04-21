@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import {
   Building2, Users, Globe, MapPin, TrendingUp, BarChart3,
@@ -86,22 +86,10 @@ function MiniDonut({ segments, size = 120 }: { segments: { label: string; value:
 export default function AnalyticsPage() {
   const [data, setData] = useState<AnalyticsData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [filters, setFilters] = useState({ region: '', state: '', profession: '', day: '' });
 
-  const fetchData = useCallback(async () => {
-    setLoading(true);
-    const params = new URLSearchParams();
-    if (filters.region) params.set('region', filters.region);
-    if (filters.state) params.set('state', filters.state);
-    if (filters.profession) params.set('profession', filters.profession);
-    if (filters.day) params.set('day', filters.day);
-    const res = await fetch(`/api/analytics?${params}`);
-    const d = await res.json();
-    setData(d);
-    setLoading(false);
-  }, [filters]);
-
-  useEffect(() => { fetchData(); }, [fetchData]);
+  useEffect(() => {
+    fetch('/data/analytics.json').then(r => r.json()).then(d => { setData(d); setLoading(false); });
+  }, []);
 
   if (loading || !data) {
     return <div className="loading" style={{ height: '100vh' }}><div className="spinner" /> Loading analytics...</div>;
@@ -126,32 +114,6 @@ export default function AnalyticsPage() {
         <p className="page-subtitle">Comprehensive BNI India network intelligence — {totals.members.toLocaleString()} members across {totals.chapters.toLocaleString()} chapters</p>
       </div>
 
-      {/* Filters */}
-      <div className="analytics-filters">
-        <Filter size={14} style={{ color: 'var(--text-muted)' }} />
-        <label>Filters:</label>
-        <select className="select-input" value={filters.region} onChange={e => setFilters(f => ({ ...f, region: e.target.value }))}>
-          <option value="">All Regions</option>
-          {filterOptions.regions.map(r => <option key={r} value={r}>{r}</option>)}
-        </select>
-        <select className="select-input" value={filters.state} onChange={e => setFilters(f => ({ ...f, state: e.target.value }))}>
-          <option value="">All States</option>
-          {filterOptions.states.map(s => <option key={s} value={s}>{s}</option>)}
-        </select>
-        <select className="select-input" value={filters.profession} onChange={e => setFilters(f => ({ ...f, profession: e.target.value }))}>
-          <option value="">All Professions</option>
-          {filterOptions.professions.map(p => <option key={p} value={p}>{p}</option>)}
-        </select>
-        <select className="select-input" value={filters.day} onChange={e => setFilters(f => ({ ...f, day: e.target.value }))}>
-          <option value="">All Days</option>
-          {filterOptions.days.map(d => <option key={d} value={d}>{d}</option>)}
-        </select>
-        {(filters.region || filters.state || filters.profession || filters.day) && (
-          <button className="btn btn-ghost btn-sm" onClick={() => setFilters({ region: '', state: '', profession: '', day: '' })}>
-            Clear All
-          </button>
-        )}
-      </div>
 
       {/* KPI Cards Row 1 */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: 12, marginBottom: 24 }}>

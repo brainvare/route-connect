@@ -35,7 +35,7 @@ export default function HomePage() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    fetch('/api/stats').then(r => r.json()).then(setStats);
+    fetch('/data/stats.json').then(r => r.json()).then(setStats);
   }, []);
 
   return (

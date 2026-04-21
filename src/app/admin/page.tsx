@@ -15,7 +15,7 @@ export default function AdminPage() {
   const [stats, setStats] = useState<Stats | null>(null);
 
   useEffect(() => {
-    fetch('/api/stats').then(r => r.json()).then(setStats);
+    fetch('/data/stats.json').then(r => r.json()).then(setStats);
   }, []);
 
   if (!stats) return <div className="loading" style={{ height: '100vh' }}><div className="spinner" /> Loading analytics...</div>;

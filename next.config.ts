@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  serverExternalPackages: ['better-sqlite3'],
-  experimental: {
-  },
+  output: 'export',
+  images: { unoptimized: true },
+  trailingSlash: true,
 };
 
 export default nextConfig;

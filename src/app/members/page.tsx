@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState, useCallback, Suspense } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import Link from 'next/link';
 import { Search, Users, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -9,72 +9,59 @@ interface Member {
 }
 
 function MembersContent() {
-  const [members, setMembers] = useState<Member[]>([]);
+  const [allMembers, setAllMembers] = useState<Member[]>([]);
   const [categories, setCategories] = useState<{ profession_category: string; count: number }[]>([]);
-  const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(0);
   const [search, setSearch] = useState('');
   const [profession, setProfession] = useState('');
-  const [city, setCity] = useState('');
   const limit = 50;
 
-  const fetchMembers = useCallback(async () => {
-    setLoading(true);
-    const params = new URLSearchParams({ limit: String(limit), offset: String(page * limit) });
-    if (search) params.set('search', search);
-    if (profession) params.set('profession', profession);
-    if (city) params.set('city', city);
-    const res = await fetch(`/api/members?${params}`);
-    const data = await res.json();
-    setMembers(data.members);
-    setTotal(data.total);
-    if (data.categories) setCategories(data.categories);
-    setLoading(false);
-  }, [search, profession, city, page]);
+  useEffect(() => {
+    fetch('/data/members.json').then(r => r.json()).then(d => {
+      setAllMembers(d.members);
+      setCategories(d.categories || []);
+      setLoading(false);
+    });
+  }, []);
 
-  useEffect(() => { fetchMembers(); }, [fetchMembers]);
-
+  const filtered = allMembers.filter(m => {
+    if (search && !`${m.full_name} ${m.company_name} ${m.profession_category}`.toLowerCase().includes(search.toLowerCase())) return false;
+    if (profession && m.profession_category !== profession) return false;
+    return true;
+  });
+  const total = filtered.length;
+  const members = filtered.slice(page * limit, (page + 1) * limit);
   const totalPages = Math.ceil(total / limit);
 
   return (
     <div className="page-container">
       <div className="page-header">
         <h1 className="page-title">👥 Member Search</h1>
-        <p className="page-subtitle">{total.toLocaleString()} members found</p>
+        <p className="page-subtitle">{total.toLocaleString()} members</p>
       </div>
       <div style={{ display: 'flex', gap: 12, marginBottom: 16 }}>
         <div className="search-bar" style={{ flex: 1 }}>
           <Search size={16} />
           <input placeholder="Search by name, company, or profession..." value={search}
-            onChange={e => setSearch(e.target.value)}
-            onKeyDown={e => { if (e.key === 'Enter') { setPage(0); fetchMembers(); } }} />
+            onChange={e => { setSearch(e.target.value); setPage(0); }} />
         </div>
-        <input className="route-input" style={{ width: 180 }} placeholder="Filter by city..." value={city}
-          onChange={e => setCity(e.target.value)} onKeyDown={e => { if (e.key === 'Enter') { setPage(0); fetchMembers(); } }} />
-        <button className="btn btn-primary" onClick={() => { setPage(0); fetchMembers(); }}>
-          <Search size={14} /> Search
-        </button>
       </div>
       <div className="chip-row" style={{ marginBottom: 24 }}>
         <span className={`chip ${!profession ? 'active' : ''}`} onClick={() => { setProfession(''); setPage(0); }}>All</span>
         {categories.slice(0, 12).map(c => (
           <span key={c.profession_category} className={`chip ${profession === c.profession_category ? 'active' : ''}`}
             onClick={() => { setProfession(c.profession_category); setPage(0); }}>
-            {c.profession_category} <span style={{ opacity: 0.5, marginLeft: 4 }}>{c.count.toLocaleString()}</span>
+            {c.profession_category}
           </span>
         ))}
       </div>
-      {loading ? (
-        <div className="loading"><div className="spinner" /> Loading members...</div>
-      ) : (
+      {loading ? <div className="loading"><div className="spinner" /> Loading...</div> : (
         <>
           <div className="card" style={{ padding: 0 }}>
             <div className="table-container">
               <table>
-                <thead>
-                  <tr><th>Name</th><th>Profession</th><th>Company</th><th>City</th><th>Chapter</th><th>Region</th></tr>
-                </thead>
+                <thead><tr><th>Name</th><th>Profession</th><th>Company</th><th>City</th><th>Chapter</th></tr></thead>
                 <tbody>
                   {members.map(m => (
                     <tr key={m.member_id}>
@@ -82,8 +69,7 @@ function MembersContent() {
                       <td><span className="badge">{m.profession_category || '—'}</span></td>
                       <td>{m.company_name || '—'}</td>
                       <td>{m.city || '—'}</td>
-                      <td>{m.chapter_id ? <Link href={`/chapters/${m.chapter_id}`} style={{ color: 'var(--accent-blue)', textDecoration: 'none' }}>{m.chapter_name || m.chapter_id}</Link> : '—'}</td>
-                      <td>{m.region_name || '—'}</td>
+                      <td>{m.chapter_id ? <Link href={`/chapters/${m.chapter_id}/`} style={{ color: 'var(--accent-blue)', textDecoration: 'none' }}>{m.chapter_name || m.chapter_id}</Link> : '—'}</td>
                     </tr>
                   ))}
                 </tbody>

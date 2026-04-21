@@ -1,6 +1,5 @@
 'use client';
-import { useEffect, useState, useCallback } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useEffect, useState, useCallback, Suspense } from 'react';
 import Link from 'next/link';
 import { Search, Building2, Users, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -9,11 +8,10 @@ interface Chapter {
   meeting_schedule: string; total_members: number; region_name: string;
 }
 
-export default function ChaptersListPage() {
-  const searchParams = useSearchParams();
+function ChaptersContent() {
   const [chapters, setChapters] = useState<Chapter[]>([]);
   const [total, setTotal] = useState(0);
-  const [search, setSearch] = useState(searchParams.get('search') || '');
+  const [search, setSearch] = useState('');
   const [day, setDay] = useState('');
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(0);
@@ -39,7 +37,6 @@ export default function ChaptersListPage() {
         <h1 className="page-title">🏢 Chapters</h1>
         <p className="page-subtitle">{total.toLocaleString()} chapters across India</p>
       </div>
-
       <div style={{ display: 'flex', gap: 12, marginBottom: 16 }}>
         <div className="search-bar" style={{ flex: 1 }}>
           <Search size={16} />
@@ -50,7 +47,6 @@ export default function ChaptersListPage() {
           <Search size={14} /> Search
         </button>
       </div>
-
       <div className="chip-row" style={{ marginBottom: 24 }}>
         {['', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].map(d => (
           <span key={d} className={`chip ${day === d ? 'active' : ''}`} onClick={() => { setDay(d); setPage(0); }}>
@@ -58,7 +54,6 @@ export default function ChaptersListPage() {
           </span>
         ))}
       </div>
-
       {loading ? <div className="loading"><div className="spinner" /> Loading...</div> : (
         <>
           <div className="grid-3">
@@ -83,4 +78,8 @@ export default function ChaptersListPage() {
       )}
     </div>
   );
+}
+
+export default function ChaptersPage() {
+  return <Suspense fallback={<div className="loading"><div className="spinner" /> Loading...</div>}><ChaptersContent /></Suspense>;
 }

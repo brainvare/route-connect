@@ -1,23 +1,21 @@
 'use client';
-import { useEffect, useState, useCallback } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useEffect, useState, useCallback, Suspense } from 'react';
 import Link from 'next/link';
-import { Search, Users, Building2, MapPin, ChevronLeft, ChevronRight, Briefcase } from 'lucide-react';
+import { Search, Users, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface Member {
   member_id: number; full_name: string; profession: string; profession_category: string;
   company_name: string; city: string; chapter_id: number; chapter_name: string; region_name: string;
 }
 
-export default function MembersPage() {
-  const searchParams = useSearchParams();
+function MembersContent() {
   const [members, setMembers] = useState<Member[]>([]);
   const [categories, setCategories] = useState<{ profession_category: string; count: number }[]>([]);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(0);
-  const [search, setSearch] = useState(searchParams.get('search') || '');
-  const [profession, setProfession] = useState(searchParams.get('profession') || '');
+  const [search, setSearch] = useState('');
+  const [profession, setProfession] = useState('');
   const [city, setCity] = useState('');
   const limit = 50;
 
@@ -45,8 +43,6 @@ export default function MembersPage() {
         <h1 className="page-title">👥 Member Search</h1>
         <p className="page-subtitle">{total.toLocaleString()} members found</p>
       </div>
-
-      {/* Search & Filters */}
       <div style={{ display: 'flex', gap: 12, marginBottom: 16 }}>
         <div className="search-bar" style={{ flex: 1 }}>
           <Search size={16} />
@@ -60,8 +56,6 @@ export default function MembersPage() {
           <Search size={14} /> Search
         </button>
       </div>
-
-      {/* Profession chips */}
       <div className="chip-row" style={{ marginBottom: 24 }}>
         <span className={`chip ${!profession ? 'active' : ''}`} onClick={() => { setProfession(''); setPage(0); }}>All</span>
         {categories.slice(0, 12).map(c => (
@@ -71,8 +65,6 @@ export default function MembersPage() {
           </span>
         ))}
       </div>
-
-      {/* Table */}
       {loading ? (
         <div className="loading"><div className="spinner" /> Loading members...</div>
       ) : (
@@ -81,14 +73,7 @@ export default function MembersPage() {
             <div className="table-container">
               <table>
                 <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Profession</th>
-                    <th>Company</th>
-                    <th>City</th>
-                    <th>Chapter</th>
-                    <th>Region</th>
-                  </tr>
+                  <tr><th>Name</th><th>Profession</th><th>Company</th><th>City</th><th>Chapter</th><th>Region</th></tr>
                 </thead>
                 <tbody>
                   {members.map(m => (
@@ -105,19 +90,17 @@ export default function MembersPage() {
               </table>
             </div>
           </div>
-
-          {/* Pagination */}
           <div className="pagination">
-            <button onClick={() => setPage(p => Math.max(0, p - 1))} disabled={page === 0}>
-              <ChevronLeft size={14} /> Prev
-            </button>
+            <button onClick={() => setPage(p => Math.max(0, p - 1))} disabled={page === 0}><ChevronLeft size={14} /> Prev</button>
             <span>Page {page + 1} of {totalPages}</span>
-            <button onClick={() => setPage(p => p + 1)} disabled={page >= totalPages - 1}>
-              Next <ChevronRight size={14} />
-            </button>
+            <button onClick={() => setPage(p => p + 1)} disabled={page >= totalPages - 1}>Next <ChevronRight size={14} /></button>
           </div>
         </>
       )}
     </div>
   );
+}
+
+export default function MembersPage() {
+  return <Suspense fallback={<div className="loading"><div className="spinner" /> Loading...</div>}><MembersContent /></Suspense>;
 }

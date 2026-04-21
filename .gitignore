@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# BNI data files
+!data/
+data/*.db-wal
+data/*.db-shm
+
+# Keep data directory
+!data/bni.db

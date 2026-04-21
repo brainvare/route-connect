@@ -5,9 +5,9 @@ import { Home, Map, Route, Users, Building2, Globe, BarChart3, PieChart } from '
 
 const navItems = [
   { section: 'Discover', items: [
-    { href: '/', label: 'Home', icon: Home },
-    { href: '/map', label: 'Map Explorer', icon: Map },
-    { href: '/route', label: 'Route Connect', icon: Route },
+    { href: '/', label: 'Home', icon: Home, badge: '' },
+    { href: '/map', label: 'Map Explorer', icon: Map, badge: '' },
+    { href: '/route', label: 'Route Connect', icon: Route, badge: '' },
   ]},
   { section: 'Search', items: [
     { href: '/members', label: 'Members', icon: Users, badge: '61K' },
@@ -15,8 +15,8 @@ const navItems = [
     { href: '/regions', label: 'Regions', icon: Globe, badge: '153' },
   ]},
   { section: 'Intelligence', items: [
-    { href: '/analytics', label: 'Analytics & Reports', icon: PieChart },
-    { href: '/admin', label: 'Dashboard', icon: BarChart3 },
+    { href: '/analytics', label: 'Analytics & Reports', icon: PieChart, badge: '' },
+    { href: '/admin', label: 'Dashboard', icon: BarChart3, badge: '' },
   ]},
 ];
 

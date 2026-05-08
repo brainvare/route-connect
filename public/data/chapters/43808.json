@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 43808,
+    "chapter_name": "Eros",
+    "region_id": 2,
+    "venue_name": "Hotel Novotel",
+    "address": "Iscon Cross Roads,Next To Wide Angle Cinema, S G Highway , Ahmedabad, Gujarat, India, 380015",
+    "city": "Iscon Cross Roads",
+    "state": "Gujarat",
+    "latitude": 23.0394444,
+    "longitude": 72.5125,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=43808&name=Eros&t=2ac7e76e11aab74142c0c04cd9a825f58fdf2c9652534ab2b80b4712232ffe2c",
+    "org_type": "CHAPTER"
+  },
+  "members": [],
+  "professions": []
+}

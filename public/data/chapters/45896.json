@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 45896,
+    "chapter_name": "BNI Vani Vilasa",
+    "region_id": 8,
+    "venue_name": "Lilac Hotel",
+    "address": "#74, 7th Main Rd, 5th Block, Jayanagar, , Bengaluru, Karnataka , India, 560041",
+    "city": "#74",
+    "state": "Karnataka",
+    "latitude": 12.9222363,
+    "longitude": 77.58166539999999,
+    "meeting_day": "Friday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-bangalore.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

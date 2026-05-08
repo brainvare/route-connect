@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 42675,
+    "chapter_name": "BNI Blossom",
+    "region_id": 145,
+    "venue_name": "ARCADIA HOTEL",
+    "address": "near roadways, Water Tank, S17/330 E, Maldahiya, Varanasi, Uttar Pradesh, India, 221002",
+    "city": "near roadways",
+    "state": "Uttar Pradesh",
+    "latitude": 25.3274449,
+    "longitude": 82.9916093,
+    "meeting_day": "Friday",
+    "meeting_time": "7:45 AM - 9:15 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:45 AM - 9:15 AM",
+    "total_members": 0,
+    "domain": "bni-varanasi.in",
+    "detail_url": "chapterdetails.php?chapterId=42675&name=BNI+Blossom&t=c2e17b9aaaaae04f4678e7b898f57637834065cf485d1c0bd8faab9fe9f99247",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 11683,
+      "full_name": "Balsubramaniam Iyer",
+      "profession": null,
+      "profession_category": "Advertising & Marketing (Other)",
+      "company_name": "Sai Servicess",
+      "city": "Varanasi",
+      "chapter_id": 42675,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Uttar Pradesh",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2152393",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 25.3274449,
+      "longitude": 82.9916093,
+      "country_code": null,
+      "chapter_name": "BNI Blossom",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Advertising & Marketing (Other)",
+      "count": 1
+    }
+  ]
+}

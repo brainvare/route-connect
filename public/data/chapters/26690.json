@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 26690,
+    "chapter_name": "BNI Beyond",
+    "region_id": 77,
+    "venue_name": "Dee Empresa Hotel",
+    "address": "12/2A Dr. Md Ishaque Road, Colootola,  New Market Area, Dharamtala, Taltala, Kolkata, West Bengal , India, 700016",
+    "city": "12/2A Dr. Md Ishaque Road",
+    "state": "West Bengal",
+    "latitude": 22.5559559,
+    "longitude": 88.352915,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-kolkatacbdb.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

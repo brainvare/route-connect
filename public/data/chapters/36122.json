@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 36122,
+    "chapter_name": "BNI Himalayas",
+    "region_id": 17,
+    "venue_name": "BHILWARA DISTRICT",
+    "address": "BHILWARA DISTRICT, BHILWARA DISTRICT, India",
+    "city": "BHILWARA DISTRICT",
+    "state": "",
+    "latitude": 25.3407388,
+    "longitude": 74.63131829999999,
+    "meeting_day": "Friday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-bhilwara.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

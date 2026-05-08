@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 38333,
+    "chapter_name": "Lincoln",
+    "region_id": 2,
+    "venue_name": "To Be Decided",
+    "address": "NA, India",
+    "city": "NA",
+    "state": "",
+    "latitude": 32.8599445,
+    "longitude": 53.0878321,
+    "meeting_day": "Friday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=38333&name=Lincoln&t=c7d3e3dcbfb6c935da3bb8bb12e38d8c09cff671f5f844267bd3b46095bd476c",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 10446,
+      "full_name": "SHASHANK PANDEY",
+      "profession": null,
+      "profession_category": "Real Estate Services (Other)",
+      "company_name": "Shaan Space",
+      "city": "Ahmedabad",
+      "chapter_id": 38333,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=1914215",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 32.8599445,
+      "longitude": 53.0878321,
+      "country_code": null,
+      "chapter_name": "Lincoln",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Real Estate Services (Other)",
+      "count": 1
+    }
+  ]
+}

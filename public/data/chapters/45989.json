@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 45989,
+    "chapter_name": "BNI SIGNATURE",
+    "region_id": 15,
+    "venue_name": "Hotel Sapphire",
+    "address": "near fouji chowk, bibi wala road, bathinda, punjab, India, 151001",
+    "city": "near fouji chowk",
+    "state": "",
+    "latitude": 30.2111037,
+    "longitude": 74.9454597,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-bhatinda.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

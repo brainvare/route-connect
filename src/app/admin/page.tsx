@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { Building2, Users, Globe, MapPin, TrendingUp } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Building2, Users, Globe, MapPin, TrendingUp, BarChart3, Briefcase, Calendar, Award, ChevronRight } from 'lucide-react';
 
 interface Stats {
   totals: { chapters: number; members: number; regions: number; cities: number };
@@ -11,6 +12,25 @@ interface Stats {
   topChapters: { chapter_id: number; chapter_name: string; total_members: number; city: string }[];
 }
 
+const BAR_COLORS = ['blue', 'green', 'amber', 'purple', 'rose', 'cyan'] as const;
+
+function AdminStatCard({ label, value, icon: Icon, color, index }: { label: string; value: string | number; icon: any; color: string; index: number }) {
+  return (
+    <motion.div 
+      className="stat-card"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: index * 0.1, duration: 0.5 }}
+    >
+      <div className={`stat-icon ${color}`}><Icon size={22} /></div>
+      <div>
+        <div className="stat-value">{value}</div>
+        <div className="stat-label">{label}</div>
+      </div>
+    </motion.div>
+  );
+}
+
 export default function AdminPage() {
   const [stats, setStats] = useState<Stats | null>(null);
 
@@ -18,119 +38,182 @@ export default function AdminPage() {
     fetch('/data/stats.json').then(r => r.json()).then(setStats);
   }, []);
 
-  if (!stats) return <div className="loading" style={{ height: '100vh' }}><div className="spinner" /> Loading analytics...</div>;
+  if (!stats) return (
+    <div className="loading" style={{ height: '100vh', flexDirection: 'column', gap: 16 }}>
+      <div className="spinner" style={{ width: 40, height: 40 }} />
+      <span style={{ fontWeight: 600, color: 'var(--text-muted)' }}>Initializing dashboard...</span>
+    </div>
+  );
 
   const maxRegion = stats.topRegions[0]?.total_members || 1;
   const maxProf = stats.topProfessions[0]?.count || 1;
 
   return (
     <div className="page-container">
-      <div className="page-header">
-        <h1 className="page-title">📊 Admin Dashboard</h1>
-        <p className="page-subtitle">BNI India Network Analytics</p>
+      <div className="page-header" style={{ marginBottom: 40 }}>
+        <h1 className="page-title" style={{ fontSize: 36, fontWeight: 900 }}>📊 Admin Dashboard</h1>
+        <p className="page-subtitle" style={{ fontSize: 16 }}>BNI India High-Level Network Performance</p>
       </div>
 
-      {/* Stats */}
-      <div className="stat-grid">
-        <div className="stat-card">
-          <div className="stat-icon green"><Building2 size={22} /></div>
-          <div><div className="stat-value">{stats.totals.chapters.toLocaleString()}</div><div className="stat-label">Total Chapters</div></div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-icon blue"><Users size={22} /></div>
-          <div><div className="stat-value">{stats.totals.members.toLocaleString()}</div><div className="stat-label">Total Members</div></div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-icon purple"><Globe size={22} /></div>
-          <div><div className="stat-value">{stats.totals.regions}</div><div className="stat-label">Regions</div></div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-icon amber"><MapPin size={22} /></div>
-          <div><div className="stat-value">{stats.totals.cities.toLocaleString()}</div><div className="stat-label">Cities</div></div>
-        </div>
+      {/* Primary Stats */}
+      <div className="stat-grid" style={{ marginBottom: 32 }}>
+        <AdminStatCard index={0} label="Total Chapters" value={stats.totals.chapters.toLocaleString()} icon={Building2} color="green" />
+        <AdminStatCard index={1} label="Total Members" value={stats.totals.members.toLocaleString()} icon={Users} color="blue" />
+        <AdminStatCard index={2} label="Active Regions" value={stats.totals.regions} icon={Globe} color="purple" />
+        <AdminStatCard index={3} label="Cities Covered" value={stats.totals.cities.toLocaleString()} icon={MapPin} color="amber" />
       </div>
 
-      <div className="grid-2" style={{ marginBottom: 24 }}>
-        {/* Top Regions */}
-        <div className="card">
-          <h2 style={{ fontSize: 16, fontWeight: 700, marginBottom: 16 }}>🏆 Top Regions by Members</h2>
-          {stats.topRegions.map(r => (
-            <div key={r.region_name} style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 10 }}>
-              <span style={{ width: 100, fontSize: 12, color: 'var(--text-secondary)', flexShrink: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{r.region_name}</span>
-              <div style={{ flex: 1, height: 8, background: 'var(--bg-glass)', borderRadius: 4, overflow: 'hidden' }}>
-                <div style={{ height: '100%', width: `${(r.total_members / maxRegion) * 100}%`, background: 'linear-gradient(90deg, var(--accent-green), var(--accent-blue))', borderRadius: 4, transition: 'width 0.5s ease' }} />
+      <div className="grid-2" style={{ marginBottom: 32, gap: 24 }}>
+        {/* Top Regions Chart */}
+        <motion.div 
+          className="card"
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className="section-title"><TrendingUp size={18} style={{ color: 'var(--accent-green)' }} /> Regional Leaders</h2>
+          <div style={{ marginTop: 20, display: 'flex', flexDirection: 'column', gap: 14 }}>
+            {stats.topRegions.slice(0, 8).map((r, i) => (
+              <div key={r.region_name}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6, fontSize: 12, fontWeight: 700 }}>
+                  <span style={{ color: 'var(--text-secondary)' }}>{r.region_name}</span>
+                  <span style={{ color: 'var(--text-primary)' }}>{r.total_members.toLocaleString()}</span>
+                </div>
+                <div className="bar-track" style={{ height: 6 }}>
+                  <motion.div 
+                    className={`bar-fill ${BAR_COLORS[i % BAR_COLORS.length]}`}
+                    initial={{ width: 0 }}
+                    animate={{ width: `${(r.total_members / maxRegion) * 100}%` }}
+                    transition={{ duration: 1, delay: i * 0.05 }}
+                  />
+                </div>
               </div>
-              <span style={{ width: 50, fontSize: 12, color: 'var(--text-muted)', textAlign: 'right' }}>{r.total_members.toLocaleString()}</span>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </motion.div>
 
-        {/* Top Professions */}
-        <div className="card">
-          <h2 style={{ fontSize: 16, fontWeight: 700, marginBottom: 16 }}>💼 Top Professions</h2>
-          {stats.topProfessions.slice(0, 15).map(p => (
-            <div key={p.profession_category} style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 10 }}>
-              <span style={{ width: 120, fontSize: 12, color: 'var(--text-secondary)', flexShrink: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{p.profession_category}</span>
-              <div style={{ flex: 1, height: 8, background: 'var(--bg-glass)', borderRadius: 4, overflow: 'hidden' }}>
-                <div style={{ height: '100%', width: `${(p.count / maxProf) * 100}%`, background: 'linear-gradient(90deg, var(--accent-purple), var(--accent-rose))', borderRadius: 4, transition: 'width 0.5s ease' }} />
+        {/* Top Professions Chart */}
+        <motion.div 
+          className="card"
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className="section-title"><Briefcase size={18} style={{ color: 'var(--accent-purple)' }} /> Top Professions</h2>
+          <div style={{ marginTop: 20, display: 'flex', flexDirection: 'column', gap: 14 }}>
+            {stats.topProfessions.slice(0, 8).map((p, i) => (
+              <div key={p.profession_category}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6, fontSize: 12, fontWeight: 700 }}>
+                  <span style={{ color: 'var(--text-secondary)' }}>{p.profession_category}</span>
+                  <span style={{ color: 'var(--text-primary)' }}>{p.count.toLocaleString()}</span>
+                </div>
+                <div className="bar-track" style={{ height: 6 }}>
+                  <motion.div 
+                    className={`bar-fill ${BAR_COLORS[(i + 2) % BAR_COLORS.length]}`}
+                    initial={{ width: 0 }}
+                    animate={{ width: `${(p.count / maxProf) * 100}%` }}
+                    transition={{ duration: 1, delay: i * 0.05 }}
+                  />
+                </div>
               </div>
-              <span style={{ width: 50, fontSize: 12, color: 'var(--text-muted)', textAlign: 'right' }}>{p.count.toLocaleString()}</span>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </motion.div>
       </div>
 
-      <div className="grid-2" style={{ marginBottom: 24 }}>
-        {/* Meeting Days */}
-        <div className="card">
-          <h2 style={{ fontSize: 16, fontWeight: 700, marginBottom: 16 }}>📅 Meetings by Day</h2>
-          <div style={{ display: 'flex', alignItems: 'flex-end', gap: 16, height: 160, paddingTop: 20 }}>
-            {stats.meetingDays.map(d => {
+      <div className="grid-2" style={{ marginBottom: 32, gap: 24 }}>
+        {/* Meeting Days Bar Chart */}
+        <motion.div 
+          className="card"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className="section-title"><Calendar size={18} style={{ color: 'var(--accent-blue)' }} /> Schedule Intensity</h2>
+          <div style={{ display: 'flex', alignItems: 'flex-end', gap: 16, height: 160, paddingTop: 30 }}>
+            {stats.meetingDays.map((d, i) => {
               const maxDay = stats.meetingDays[0]?.count || 1;
-              const height = (d.count / maxDay) * 120;
+              const height = (d.count / maxDay) * 100;
               return (
-                <div key={d.meeting_day} style={{ flex: 1, textAlign: 'center' }}>
-                  <div style={{ fontSize: 16, fontWeight: 700, color: 'var(--accent-blue)', marginBottom: 8 }}>{d.count}</div>
-                  <div style={{ height, background: 'linear-gradient(180deg, var(--accent-blue), rgba(59,130,246,0.2))', borderRadius: '4px 4px 0 0', margin: '0 auto', width: '80%' }} />
-                  <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 8 }}>{d.meeting_day?.slice(0, 3)}</div>
+                <div key={d.meeting_day} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', height: '100%' }}>
+                  <div style={{ fontSize: 14, fontWeight: 900, color: 'var(--accent-blue)', marginBottom: 8 }}>{d.count}</div>
+                  <motion.div 
+                    initial={{ height: 0 }}
+                    animate={{ height: `${height}%` }}
+                    transition={{ duration: 0.8, delay: i * 0.1 }}
+                    style={{ background: 'linear-gradient(180deg, var(--accent-blue), rgba(59,130,246,0.1))', borderRadius: '4px 4px 0 0', width: '70%' }} 
+                  />
+                  <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--text-muted)', marginTop: 10 }}>{d.meeting_day?.slice(0, 3)}</div>
                 </div>
               );
             })}
           </div>
-        </div>
+        </motion.div>
 
-        {/* State Distribution */}
-        <div className="card">
-          <h2 style={{ fontSize: 16, fontWeight: 700, marginBottom: 16 }}>🗺️ Chapters by State</h2>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-            {stats.stateDistribution.map(s => (
-              <span key={s.state} className="chip">
-                {s.state} <span style={{ opacity: 0.5, marginLeft: 4, fontWeight: 700 }}>{s.count}</span>
-              </span>
+        {/* State Tags */}
+        <motion.div 
+          className="card"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <h2 className="section-title"><Globe size={18} style={{ color: 'var(--accent-amber)' }} /> State Coverage</h2>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginTop: 10 }}>
+            {stats.stateDistribution.map((s, i) => (
+              <motion.span 
+                key={s.state} 
+                className="chip"
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: i * 0.02 }}
+                whileHover={{ scale: 1.05 }}
+              >
+                {s.state} <span style={{ opacity: 0.5, marginLeft: 8, fontWeight: 900 }}>{s.count}</span>
+              </motion.span>
             ))}
           </div>
-        </div>
+        </motion.div>
       </div>
 
-      {/* Top Chapters */}
-      <div className="card">
-        <h2 style={{ fontSize: 16, fontWeight: 700, marginBottom: 16 }}>🌟 Largest Chapters</h2>
+      {/* Top Chapters Table */}
+      <motion.div 
+        className="card" 
+        style={{ padding: 0, overflow: 'hidden' }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+      >
+        <div style={{ padding: '20px 24px', borderBottom: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <h2 style={{ fontSize: 18, fontWeight: 900, margin: 0, display: 'flex', alignItems: 'center', gap: 10 }}>
+            <Award size={20} style={{ color: 'var(--accent-amber)' }} /> Network Hall of Fame
+          </h2>
+          <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--text-muted)' }}>TOP 10 CHAPTERS BY SIZE</span>
+        </div>
         <div className="table-container">
           <table>
-            <thead><tr><th>#</th><th>Chapter</th><th>City</th><th>Members</th></tr></thead>
+            <thead>
+              <tr>
+                <th style={{ width: 60 }}>Rank</th>
+                <th>Chapter Name</th>
+                <th>Location</th>
+                <th style={{ textAlign: 'right' }}>Members</th>
+                <th style={{ width: 60 }}></th>
+              </tr>
+            </thead>
             <tbody>
               {stats.topChapters.map((ch, i) => (
                 <tr key={ch.chapter_id}>
-                  <td style={{ fontWeight: 700, color: 'var(--accent-amber)' }}>{i + 1}</td>
-                  <td style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{ch.chapter_name}</td>
-                  <td>{ch.city || '—'}</td>
-                  <td><span className="badge green">{ch.total_members}</span></td>
+                  <td style={{ fontWeight: 900, color: i < 3 ? 'var(--accent-amber)' : 'var(--text-muted)', fontSize: 16 }}>#{i + 1}</td>
+                  <td style={{ fontWeight: 800, color: 'var(--text-primary)' }}>{ch.chapter_name}</td>
+                  <td><div style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13 }}><MapPin size={14} style={{ color: 'var(--text-muted)' }} /> {ch.city || '—'}</div></td>
+                  <td style={{ textAlign: 'right' }}><span className="badge green" style={{ fontWeight: 900, padding: '4px 12px', fontSize: 13 }}>{ch.total_members}</span></td>
+                  <td style={{ textAlign: 'right' }}><ChevronRight size={18} style={{ color: 'var(--text-muted)' }} /></td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

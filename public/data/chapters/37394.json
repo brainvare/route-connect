@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 37394,
+    "chapter_name": "Marvelous",
+    "region_id": 23,
+    "venue_name": "Park Elaza",
+    "address": "No.125, Valluvar Kottam High Rd, Ponnangipuram, Tirumurthy Nagar, Nungambakkam, Chennai, India, India, 600034",
+    "city": "No.125",
+    "state": "",
+    "latitude": 13.0564893,
+    "longitude": 80.24275759999999,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-chennaicbda.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

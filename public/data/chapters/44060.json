@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 44060,
+    "chapter_name": "BNI Vikings",
+    "region_id": 101,
+    "venue_name": "Brain Checker Techno Services",
+    "address": "107, Business Court,, Govind Nagar,, Nasik, MH, India, 422009",
+    "city": "Business Court",
+    "state": "",
+    "latitude": 19.9847859,
+    "longitude": 73.7745573,
+    "meeting_day": "Friday",
+    "meeting_time": "9:00 AM - 10:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 9:00 AM - 10:30 AM",
+    "total_members": 0,
+    "domain": "bni-nasik.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

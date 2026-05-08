@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46426,
+    "chapter_name": "Texcon",
+    "region_id": 36,
+    "venue_name": "Hotel Holiday Inn",
+    "address": "Mayur Vihar Extension, New Delhi, Delhi, India",
+    "city": "Mayur Vihar Extension",
+    "state": "Delhi",
+    "latitude": 28.5942132,
+    "longitude": 77.2946345,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-delhieast.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

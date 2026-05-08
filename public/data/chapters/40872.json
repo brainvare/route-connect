@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 40872,
+    "chapter_name": "Hercules",
+    "region_id": 2,
+    "venue_name": "Hotel Novotel",
+    "address": "Iscon Cross Roads,Next To Wide Angle Cinema, S G Highway , Ahmedabad, Gujarat, India, 380015",
+    "city": "Iscon Cross Roads",
+    "state": "Gujarat",
+    "latitude": 23.0394444,
+    "longitude": 72.5125,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=40872&name=Hercules&t=b332c7fead206e55c40d0cabd438e9029c661b2fe99896f46cc60e52667b168a",
+    "org_type": "CHAPTER"
+  },
+  "members": [],
+  "professions": []
+}

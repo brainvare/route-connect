@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 37699,
+    "chapter_name": "KAUTILYA",
+    "region_id": 66,
+    "venue_name": "Hotel Sayaji",
+    "address": "Jamnagar, Jamnagar, India",
+    "city": "Jamnagar",
+    "state": "",
+    "latitude": 22.4707019,
+    "longitude": 70.05773,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-jamnagar.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

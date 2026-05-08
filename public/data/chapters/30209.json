@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 30209,
+    "chapter_name": "BNI Capital",
+    "region_id": 123,
+    "venue_name": "Hotel Preeti Executive",
+    "address": "P 8/1, NH-4, Rahimatpur Road, Old MIDC, Manik Nagar, Satara, Maharashtra , India, 415004",
+    "city": "P 8/1",
+    "state": "Maharashtra",
+    "latitude": 17.6772525,
+    "longitude": 74.0224537,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-satara.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

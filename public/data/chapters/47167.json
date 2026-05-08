@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 47167,
+    "chapter_name": "EXPERTS",
+    "region_id": 20,
+    "venue_name": "Courtyard (Hotel Marriott)",
+    "address": "Citymall 36 Chowk, , Mangla, , Bilaspur, Chhattisgarh, India, 495001",
+    "city": "Citymall 36 Chowk",
+    "state": "Chhattisgarh",
+    "latitude": 22.0941597,
+    "longitude": 82.1256889,
+    "meeting_day": "Thursday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-bilaspursouth.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [
+    {
+      "member_id": 2571,
+      "full_name": "Jitendra Dewangan",
+      "profession": null,
+      "profession_category": "Custom Clothing/Tailor",
+      "company_name": "B. N.Tailors",
+      "city": "Bilaspur",
+      "chapter_id": 47167,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Chhattisgarh",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2417906",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 22.0941597,
+      "longitude": 82.1256889,
+      "country_code": null,
+      "chapter_name": "EXPERTS",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Custom Clothing/Tailor",
+      "count": 1
+    }
+  ]
+}

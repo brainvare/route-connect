@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47062,
+    "chapter_name": "TEJAS",
+    "region_id": 150,
+    "venue_name": "V HOTEL",
+    "address": "DWARAKANAGAR, DWARAKANAGAR, VISHAKHAPATNAM, India",
+    "city": "DWARAKANAGAR",
+    "state": "",
+    "latitude": 17.7266363,
+    "longitude": 83.3051,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-visakhapatnam.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

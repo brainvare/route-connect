@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 39477,
+    "chapter_name": "Hades",
+    "region_id": 2,
+    "venue_name": "Renaissance Hotel,",
+    "address": "Behind Ganesh Meridian, Sola,, S. G. Highway, Sola, , Ahmedabad,, Gujarat, India, 380060",
+    "city": "Behind Ganesh Meridian",
+    "state": "Gujarat",
+    "latitude": 23.0252794,
+    "longitude": 72.5071099,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=39477&name=Hades&t=00c026b73ef04cb9c4a24d77420ec5e0edc6052bd2cb882a366ae42839eb6f8e",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 2774,
+      "full_name": "Vimal Mahendrabhai Soni",
+      "profession": null,
+      "profession_category": "Fine Jewelry",
+      "company_name": "Shivshakti Jewellers",
+      "city": "B/H EULOGIA HOTEL, GOTA, S G HIGHWAY",
+      "chapter_id": 39477,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "GUJARAT",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=1975870",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.0252794,
+      "longitude": 72.5071099,
+      "country_code": null,
+      "chapter_name": "Hades",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Fine Jewelry",
+      "count": 1
+    }
+  ]
+}

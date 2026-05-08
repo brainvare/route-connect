@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46899,
+    "chapter_name": "Co Pilot",
+    "region_id": 36,
+    "venue_name": "ITC Fortune Park, East Delhi",
+    "address": "DDA Community Center, Fortune, Plot D, opp. to East End Club Delhi, , Block C, Vivek Vihar, New Delhi, Delhi, India, 110095",
+    "city": "DDA Community Center",
+    "state": "Delhi",
+    "latitude": 28.6659608,
+    "longitude": 77.30432619999999,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-delhieast.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 36838,
+    "chapter_name": "BNI Brilliance",
+    "region_id": 109,
+    "venue_name": "Hotel Sreevalsam Grande",
+    "address": "Pathanamthitta, Pathanamthitta, India",
+    "city": "Pathanamthitta",
+    "state": "",
+    "latitude": 9.2647582,
+    "longitude": 76.78704139999999,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-pathanamthitta.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

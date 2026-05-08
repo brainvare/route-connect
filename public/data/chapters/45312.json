@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 45312,
+    "chapter_name": "BNI Vetri",
+    "region_id": 25,
+    "venue_name": "BNi Chennai North Regional  Office",
+    "address": "Flat F,Sreevatsa sree Apt, 13 , 6th main road, R.A.Puram, Chennai, Tamil Nadu, India, 600028",
+    "city": "Flat F",
+    "state": "Tamil Nadu",
+    "latitude": 13.0245873,
+    "longitude": 80.255955,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-chennainorth.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

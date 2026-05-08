@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 42161,
+    "chapter_name": "BNI Dev Nandini",
+    "region_id": 143,
+    "venue_name": "Hotel Hometel",
+    "address": "A sarovar Hotel, NH 73 Dehradun, National Highway |, next to Roorkee, Karaundi, Roorkee, Uttarakhand, India, 247667",
+    "city": "A sarovar Hotel",
+    "state": "Uttarakhand",
+    "latitude": 29.8730562,
+    "longitude": 77.8767694,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-uttarakhand.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

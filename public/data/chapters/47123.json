@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47123,
+    "chapter_name": "INFLUENCERS",
+    "region_id": 150,
+    "venue_name": "online meetings",
+    "address": "zoom, India",
+    "city": "zoom",
+    "state": "",
+    "latitude": 36.0795082,
+    "longitude": -95.8468504,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-visakhapatnam.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

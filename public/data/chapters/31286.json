@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 31286,
+    "chapter_name": "Poseidon",
+    "region_id": 2,
+    "venue_name": "DoubleTree by Hilton",
+    "address": "Ambli Rd, Vikram Nagar,, Ahmedabad,,  Gujarat , India, 380058",
+    "city": "Ambli Rd",
+    "state": "Gujarat",
+    "latitude": 23.0277693,
+    "longitude": 72.5018676,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=31286&name=Poseidon&t=cbdce53b18a7684fc8165a1e676ba16661111627dcf0e1afa5557154c22a7f51",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 9435,
+      "full_name": "Nimesh Lathiya",
+      "profession": null,
+      "profession_category": "Social Media",
+      "company_name": "IMI Advertising",
+      "city": "Ahmedabad",
+      "chapter_id": 31286,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2118837",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.0277693,
+      "longitude": 72.5018676,
+      "country_code": null,
+      "chapter_name": "Poseidon",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Social Media",
+      "count": 1
+    }
+  ]
+}

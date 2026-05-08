@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47224,
+    "chapter_name": "BNI Daksh",
+    "region_id": 8,
+    "venue_name": "Hilton Bengaluru Embassy Manyata Business Park",
+    "address": "Block A, Hotel Bldg -1, Outer Ring Road, Nagawara, Bangalore, Karnataka, India, 560045",
+    "city": "Block A",
+    "state": "Karnataka",
+    "latitude": 13.0357314,
+    "longitude": 77.5318015,
+    "meeting_day": "Friday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-bangalore.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 40521,
+    "chapter_name": "BNI Zenith",
+    "region_id": 140,
+    "venue_name": "Howard Johnson",
+    "address": "100 Feet Road, Near Mahila Thana,, Roop Sagar,, Udaipur, Rajasthan, India, 313001",
+    "city": "100 Feet Road",
+    "state": "Rajasthan",
+    "latitude": 24.5973092,
+    "longitude": 73.7093906,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-udaipur.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

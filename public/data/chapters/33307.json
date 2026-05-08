@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 33307,
+    "chapter_name": "BNI Mars",
+    "region_id": 81,
+    "venue_name": "Country Inn & Suites by Radisson Kota",
+    "address": "Rajeev Gandhi Nagar,, Opposite City Mall , Kota, Rajasthan, India, 324005",
+    "city": "Rajeev Gandhi Nagar",
+    "state": "Rajasthan",
+    "latitude": 25.1387413,
+    "longitude": 75.8532232,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-kota.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

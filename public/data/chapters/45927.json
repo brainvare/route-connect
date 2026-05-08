@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 45927,
+    "chapter_name": "BNI Fortune",
+    "region_id": 69,
+    "venue_name": "City Windows",
+    "address": "Opposite Ashok Anil Multiplex, Kalyan Badlapur Road, Ulhasnagar, MH, India, 421003",
+    "city": "Opposite Ashok Anil Multiplex",
+    "state": "",
+    "latitude": 19.2253613,
+    "longitude": 73.16426229999999,
+    "meeting_day": "Thursday",
+    "meeting_time": "2:00 PM - 3:30 PM",
+    "meeting_schedule": "Meets : Every Thursday, 2:00 PM - 3:30 PM",
+    "total_members": 0,
+    "domain": "bni-kalyandombivali.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

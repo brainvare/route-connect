@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 45391,
+    "chapter_name": "Kleon",
+    "region_id": 2,
+    "venue_name": "Courtyard by Marriott - Sindhu Bhavan Road",
+    "address": "Sindhubhavan Marg, PRL Colony, , Bodakdev, , Ahmedabad,, India, 380054",
+    "city": "Sindhubhavan Marg",
+    "state": "",
+    "latitude": 23.0414106,
+    "longitude": 72.4936537,
+    "meeting_day": "Tuesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Tuesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=45391&name=Kleon&t=85dbfa17f3a96c2683562c879c95a10faa04c1084f785b8a17070daeb20a66fc",
+    "org_type": "CHAPTER"
+  },
+  "members": [],
+  "professions": []
+}

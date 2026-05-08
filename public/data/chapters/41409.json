@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 41409,
+    "chapter_name": "BNi Mercury",
+    "region_id": 80,
+    "venue_name": "Ambalakkara Regency",
+    "address": "Rajapalayam-T.Kallupatti, Pulamon Junction, MC Road & Kollam-Tenkasi, NH7-Road,Kottarakkara,, Kerala, India, 691531",
+    "city": "Rajapalayam-T.Kallupatti",
+    "state": "Kerala",
+    "latitude": 9.3130917,
+    "longitude": 76.6218513,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-kollam.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

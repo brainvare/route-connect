@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState, use } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Users, Calendar, Building2 } from 'lucide-react';
+import { ArrowLeft, Users, Calendar, Building2, Phone, Globe, Mail } from 'lucide-react';
 
 export default function ChapterDetail({ paramsPromise }: { paramsPromise: Promise<{ id: string }> }) {
   const { id } = use(paramsPromise);
@@ -61,14 +61,40 @@ export default function ChapterDetail({ paramsPromise }: { paramsPromise: Promis
         </div>
         <div className="table-container">
           <table>
-            <thead><tr><th>Name</th><th>Profession</th><th>Company</th><th>City</th></tr></thead>
+            <thead><tr><th>Name</th><th>Profession</th><th>Company</th><th>Address</th><th>Contact</th></tr></thead>
             <tbody>
               {members.map((m: any) => (
                 <tr key={m.member_id}>
                   <td style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{m.full_name}</td>
                   <td><span className="badge">{m.profession_category || '—'}</span></td>
                   <td>{m.company_name || '—'}</td>
-                  <td>{m.city || '—'}</td>
+                  <td>
+                    {m.city || '—'}
+                    {m.street_address && <div className="address-text">{m.street_address}</div>}
+                  </td>
+                  <td>
+                    <div className="contact-grid">
+                      {(m.phone || m.mobile || m.direct_phone) && (
+                        <div className="tooltip-container">
+                          <div className="contact-icon phone"><Phone size={14} /></div>
+                          <div className="tooltip-content">{m.phone || m.mobile || m.direct_phone}</div>
+                        </div>
+                      )}
+                      {m.website && (
+                        <a href={m.website} target="_blank" className="tooltip-container">
+                          <div className="contact-icon website"><Globe size={14} /></div>
+                          <div className="tooltip-content">Visit Website</div>
+                        </a>
+                      )}
+                      {m.email && (
+                        <div className="tooltip-container">
+                          <div className="contact-icon email"><Mail size={14} /></div>
+                          <div className="tooltip-content">{m.email}</div>
+                        </div>
+                      )}
+                      {!(m.phone || m.mobile || m.direct_phone || m.email || m.website) && <span style={{ color: 'var(--text-muted)' }}>—</span>}
+                    </div>
+                  </td>
                 </tr>
               ))}
             </tbody>

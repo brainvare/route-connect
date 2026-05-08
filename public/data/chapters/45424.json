@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 45424,
+    "chapter_name": "BNI Gangaa",
+    "region_id": 8,
+    "venue_name": "Arena100 | Sports & Resort",
+    "address": "Electronic City, Bettadasanapura Bypass Road, Post, Bettadasanapur, Bangalore, Karnataka, India, 560105",
+    "city": "Electronic City",
+    "state": "Karnataka",
+    "latitude": 12.8423024,
+    "longitude": 77.6390158,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-bangalore.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

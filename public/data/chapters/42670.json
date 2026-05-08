@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 42670,
+    "chapter_name": "South Goa",
+    "region_id": 46,
+    "venue_name": "Hotel NANUTEL",
+    "address": "Padre Miranda Road, Salcette, Margao, Goa, India, 403601",
+    "city": "Padre Miranda Road",
+    "state": "Goa",
+    "latitude": 15.2763336,
+    "longitude": 73.95819329999999,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-goa.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

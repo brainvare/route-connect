@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 43190,
+    "chapter_name": "BNI Dev Rishi",
+    "region_id": 34,
+    "venue_name": "Lemon Tree Hotel",
+    "address": "Laxman Jhula Road, Rishikesh, Uttarakhand, India, 249192",
+    "city": "Laxman Jhula Road",
+    "state": "Uttarakhand",
+    "latitude": 30.1275102,
+    "longitude": 78.3266549,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-dehradun.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

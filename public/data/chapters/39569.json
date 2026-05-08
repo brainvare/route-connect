@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 39569,
+    "chapter_name": "BNI Vitus",
+    "region_id": 2,
+    "venue_name": "Hotel Avaante, Ahmedabad ( Former Orchid Hotel )",
+    "address": "Madhav Orchid, Sardar Patel Ring Rd, Gokul Nagar, Adinath Nagar, Odhav, Ahmedabad, Gujarat , India, 382415",
+    "city": "Madhav Orchid",
+    "state": "Gujarat",
+    "latitude": 23.0170432,
+    "longitude": 72.6702079,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=39569&name=BNI+Vitus&t=0146de29610c73412389c65e1a5499fcf028b978d7c32ffb28230838e42ed5f7",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 9756,
+      "full_name": "Kushal Jaiman",
+      "profession": null,
+      "profession_category": "Advertising & Marketing (Other)",
+      "company_name": "Ecom Growth Partner",
+      "city": "Ahmedabad",
+      "chapter_id": 39569,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2397528",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.0170432,
+      "longitude": 72.6702079,
+      "country_code": null,
+      "chapter_name": "BNI Vitus",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Advertising & Marketing (Other)",
+      "count": 1
+    }
+  ]
+}

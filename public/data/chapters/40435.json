@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 40435,
+    "chapter_name": "BNI Affluence",
+    "region_id": 101,
+    "venue_name": "Kensington Club",
+    "address": "55, Boat Club Road,   , Riverfront Cruiseway, Chandshi, , Nashik,, Maharashtra, India, 422003",
+    "city": "Boat Club Road",
+    "state": "Maharashtra",
+    "latitude": 20.0224163,
+    "longitude": 73.75026079999999,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-nasik.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

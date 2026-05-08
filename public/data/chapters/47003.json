@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47003,
+    "chapter_name": "BNI Eternity",
+    "region_id": 79,
+    "venue_name": "Taj Vivanta",
+    "address": "1930 Rajdanga Main Road, Kolkata, India, 700107",
+    "city": "1930 Rajdanga Main Road",
+    "state": "",
+    "latitude": 22.5117733,
+    "longitude": 88.3948942,
+    "meeting_day": "Tuesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Tuesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-kolkatasouth.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

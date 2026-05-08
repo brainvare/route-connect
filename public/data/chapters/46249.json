@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46249,
+    "chapter_name": "BNI Masters",
+    "region_id": 25,
+    "venue_name": "Ascendency Interlinks Pvt Ltd",
+    "address": "Flat F,Sreevatsa sree Apt, 13 , 6th main road, R.A.Puram, Chennai, Tamil Nadu, India, 600028",
+    "city": "Flat F",
+    "state": "Tamil Nadu",
+    "latitude": 13.0245873,
+    "longitude": 80.255955,
+    "meeting_day": "Tuesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Tuesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-chennainorth.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

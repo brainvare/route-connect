@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 44346,
+    "chapter_name": "BNi Excellence",
+    "region_id": 109,
+    "venue_name": "Hotel Sreevalsam Residency",
+    "address": "Pandalam, Pandalam, India",
+    "city": "Pandalam",
+    "state": "",
+    "latitude": 9.2249929,
+    "longitude": 76.678471,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-pathanamthitta.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

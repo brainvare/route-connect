@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47169,
+    "chapter_name": "BNI Jupiter",
+    "region_id": 62,
+    "venue_name": "Indore Marriott Hotel",
+    "address": "H-2 Scheme No 54, Meghdoot Garden, Vijay Nagar, , Indore, MP, India, 452010",
+    "city": "H-2 Scheme No 54",
+    "state": "",
+    "latitude": 22.7523026,
+    "longitude": 75.88720289999999,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-indore.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

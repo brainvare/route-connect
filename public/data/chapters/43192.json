@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 43192,
+    "chapter_name": "BNI Dev Drona",
+    "region_id": 143,
+    "venue_name": "The Manor by Leisure Hotels Group",
+    "address": "Chaiti Chauraha Bazpur Road, Kashipur, Kashipur, 244713, India",
+    "city": "Chaiti Chauraha Bazpur Road",
+    "state": "",
+    "latitude": 29.219446,
+    "longitude": 78.96382799999999,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-uttarakhand.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46350,
+    "chapter_name": "BNI Manifest",
+    "region_id": 94,
+    "venue_name": "Vivanta by Taj - President",
+    "address": "90 Cuffe Parade,, Mumbai, Maharashtra, India, 400 005",
+    "city": "90 Cuffe Parade",
+    "state": "Maharashtra",
+    "latitude": 18.914419,
+    "longitude": 72.820713,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-mumbaisouth.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46944,
+    "chapter_name": "BNI Strikers",
+    "region_id": 63,
+    "venue_name": "ITC Rajputana",
+    "address": "Palace Road, Gopalbari, Jaipur, Rajasthan , India, 302006",
+    "city": "Palace Road",
+    "state": "Rajasthan",
+    "latitude": 26.9193125,
+    "longitude": 75.7911748,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-jaipurnorth.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 31462,
+    "chapter_name": "Lazarus",
+    "region_id": 2,
+    "venue_name": "Hotel Marriot",
+    "address": "Ramdev Nagar Cross Road,,  Satellite Road, , Ahmedabad, Gujarat, India,  380015",
+    "city": "Ramdev Nagar Cross Road",
+    "state": "Gujarat",
+    "latitude": 23.0271484,
+    "longitude": 72.5085157,
+    "meeting_day": "Tuesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Tuesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=31462&name=Lazarus&t=b3dd0c637829d464fa6dbc41c4177b36d17d090a5bbbb1ceebda92630ab868e6",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 10349,
+      "full_name": "Pranav Shah",
+      "profession": null,
+      "profession_category": "IT & Networks",
+      "company_name": "Smartlap Systems",
+      "city": "Ahmedabad - 13",
+      "chapter_id": 31462,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=1840345",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.0271484,
+      "longitude": 72.5085157,
+      "country_code": null,
+      "chapter_name": "Lazarus",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "IT & Networks",
+      "count": 1
+    }
+  ]
+}

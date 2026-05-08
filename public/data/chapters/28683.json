@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 28683,
+    "chapter_name": "Crixus",
+    "region_id": 2,
+    "venue_name": "Crowne Plaza",
+    "address": "Shapath - V; S. G. Road,, Ahmedabad, Gujarat, India, 380015",
+    "city": "Shapath - V; S. G. Road",
+    "state": "Gujarat",
+    "latitude": 23.024349,
+    "longitude": 72.5301521,
+    "meeting_day": "Thursday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=28683&name=Crixus&t=e1176b1f658909c4b5aa7c1b8438a129901e7548772cd5bdbf7f4d51b7bc8c62",
+    "org_type": "CHAPTER"
+  },
+  "members": [],
+  "professions": []
+}

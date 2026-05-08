@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 43941,
+    "chapter_name": "BNI Legacy",
+    "region_id": 101,
+    "venue_name": "Greenstones Boutique Hotel",
+    "address": "B-13, Serene Meadows, Anandvalli,, Opposite HDFC & ICICI Bank, Nasik, MH, India, 400013",
+    "city": "B-13",
+    "state": "",
+    "latitude": 20.012539,
+    "longitude": 73.737473,
+    "meeting_day": "Thursday",
+    "meeting_time": "10:00 AM - 11:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 10:00 AM - 11:30 AM",
+    "total_members": 0,
+    "domain": "bni-nasik.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

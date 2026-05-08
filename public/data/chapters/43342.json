@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 43342,
+    "chapter_name": "BNI Aegeus",
+    "region_id": 2,
+    "venue_name": "EKA Club",
+    "address": "The Arena (Abad Dairy), 3, Dayanand Rd, , beside Dinner Point Hotel, Kankaria,, Ahmedabad,, Gujarat , India, 380022",
+    "city": "The Arena (Abad Dairy)",
+    "state": "Gujarat",
+    "latitude": 23.0108889,
+    "longitude": 72.5992156,
+    "meeting_day": "Friday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=43342&name=BNI+Aegeus&t=5c5d785de72f50c2f4b02438271ad8e342d54e82534a7ac0800b58af896aaf30",
+    "org_type": "CHAPTER"
+  },
+  "members": [],
+  "professions": []
+}

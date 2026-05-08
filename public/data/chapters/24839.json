@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 24839,
+    "chapter_name": "BNI Anatolius",
+    "region_id": 2,
+    "venue_name": "Fairfield by Marriott",
+    "address": "Ashram Rd, Satyawadi Society, , Usmanpura, , Ahmedabad,, Gujarat , India, 380013",
+    "city": "Ashram Rd",
+    "state": "Gujarat",
+    "latitude": 23.0512007,
+    "longitude": 72.57140869999999,
+    "meeting_day": "Thursday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=24839&name=BNI+Anatolius&t=3247f62567f9f1ac4d926a9c0245a6d999fe00dd46d717443924843b3241e064",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 6727,
+      "full_name": "Bharat Ram bhai patel",
+      "profession": null,
+      "profession_category": "Retail (Other)",
+      "company_name": "SHAKTI SALES CORPORATION",
+      "city": "Ahmedabad",
+      "chapter_id": 24839,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2051590",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.0512007,
+      "longitude": 72.57140869999999,
+      "country_code": null,
+      "chapter_name": "BNI Anatolius",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Retail (Other)",
+      "count": 1
+    }
+  ]
+}

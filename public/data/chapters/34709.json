@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 34709,
+    "chapter_name": "Gold",
+    "region_id": 23,
+    "venue_name": "E Hotel",
+    "address": "Express Avenue Mall, Ground Floor, Gate No 1, Patullos Road, Chennai, India, 600002",
+    "city": "Express Avenue Mall",
+    "state": "",
+    "latitude": 13.0587535,
+    "longitude": 80.2629335,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-chennaicbda.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

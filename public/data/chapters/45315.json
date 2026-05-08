@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 45315,
+    "chapter_name": "DIAMOND",
+    "region_id": 1,
+    "venue_name": "Grand Mercure",
+    "address": "Fatehabad Rd, Tajganj, , Basai, Agra, India, 282001",
+    "city": "Fatehabad Rd",
+    "state": "",
+    "latitude": 27.1578675,
+    "longitude": 78.0531773,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-agra.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

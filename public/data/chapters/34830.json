@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 34830,
+    "chapter_name": "Perseus",
+    "region_id": 2,
+    "venue_name": "Renaissance Hotel,",
+    "address": "Behind Ganesh Meridian, Sola,, S. G. Highway, Sola, , Ahmedabad,, Gujarat, India, 380060",
+    "city": "Behind Ganesh Meridian",
+    "state": "Gujarat",
+    "latitude": 23.0252794,
+    "longitude": 72.5071099,
+    "meeting_day": "Friday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=34830&name=Perseus&t=2b136a0f65cd10de4d2a72536a13a47adc470061572eefcc362fa1acdfb39043",
+    "org_type": "CHAPTER"
+  },
+  "members": [],
+  "professions": []
+}

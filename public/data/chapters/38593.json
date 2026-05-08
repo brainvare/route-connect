@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 38593,
+    "chapter_name": "BNI Brisk",
+    "region_id": 110,
+    "venue_name": "Hotel The Panache",
+    "address": "West of Ram Gulam Chowk, South Gandhi Maidan, Patna, Bihar, India, 800001",
+    "city": "West of Ram Gulam Chowk",
+    "state": "Bihar",
+    "latitude": 25.6152914,
+    "longitude": 85.1444161,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-patna.in",
+    "detail_url": "chapterdetails.php?chapterId=38593&name=BNI+Brisk&t=e67769da423f7815e94fc927d44b55238991af20870eb5e7e4e9d41f9b449d13",
+    "org_type": "CHAPTER"
+  },
+  "members": [],
+  "professions": []
+}

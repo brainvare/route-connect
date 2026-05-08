@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 42561,
+    "chapter_name": "BNI Harmony",
+    "region_id": 101,
+    "venue_name": "Ambika Tours & Travels",
+    "address": "1, Om Shubham Apartments, Opp Chopda Lawns, Gangapur Road, Nasik, MH, India, 422013",
+    "city": "Om Shubham Apartments",
+    "state": "",
+    "latitude": 31.2826685,
+    "longitude": -86.2555067,
+    "meeting_day": "Friday",
+    "meeting_time": "9:00 AM - 10:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 9:00 AM - 10:30 AM",
+    "total_members": 0,
+    "domain": "bni-nasik.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

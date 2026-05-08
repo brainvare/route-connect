@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47111,
+    "chapter_name": "BNI TYCOON",
+    "region_id": 21,
+    "venue_name": "KPM TRIPENTA HOTEL",
+    "address": "OPPOSITE SAROVARAM BIO PARK, CALICUT, KERALA, India, 673006",
+    "city": "OPPOSITE SAROVARAM BIO PARK",
+    "state": "",
+    "latitude": 11.2676214,
+    "longitude": 75.7881949,
+    "meeting_day": "Thursday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-calicut.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

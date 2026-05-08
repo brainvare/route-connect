@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 45516,
+    "chapter_name": "BNI Omega",
+    "region_id": 82,
+    "venue_name": "Hotel Aida",
+    "address": "Aida Junction, M C Road, Kottayam, Kerala, India, 686001",
+    "city": "Aida Junction",
+    "state": "Kerala",
+    "latitude": 10.1885289,
+    "longitude": 76.39289420000001,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-kottayam.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

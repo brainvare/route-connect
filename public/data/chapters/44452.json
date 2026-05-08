@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 44452,
+    "chapter_name": "BNI Diamonds",
+    "region_id": 13,
+    "venue_name": "Native Hotel",
+    "address": "Khanapur Road CTS.No:732, Near 3rd Railway Gate, Opp D Mart, Belgaum 590007 India, Belgaum, Karnataka, India, 590007",
+    "city": "Khanapur Road CTS.No:732",
+    "state": "Karnataka",
+    "latitude": 15.6406634,
+    "longitude": 74.51703189999999,
+    "meeting_day": "Friday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-belgaumcity.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

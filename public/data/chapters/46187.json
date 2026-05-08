@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46187,
+    "chapter_name": "BNI Amogha",
+    "region_id": 8,
+    "venue_name": "The Chancery Pavilion",
+    "address": "135, Residency Road, Shanthala Nagar, Bangalore, Karnataka, India, 560025",
+    "city": "Residency Road",
+    "state": "Karnataka",
+    "latitude": 12.9658233,
+    "longitude": 77.598722,
+    "meeting_day": "Friday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-bangalore.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

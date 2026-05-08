@@ -9,28 +9,28 @@ import path from 'path';
 
 const DB_DIR = path.join(process.cwd(), 'data');
 const DB_PATH = path.join(DB_DIR, 'bni.db');
-const CHAPTERS_JSON = path.join(process.cwd(), '..', 'bni_chapters.json');
-const MEMBERS_JSON = path.join(process.cwd(), '..', 'bni_members.json');
+const CHAPTERS_JSON = '/Users/brainvare/BNIDATA/bni_chapters.json';
+const MEMBERS_JSON = '/Users/brainvare/BNIDATA/bni_members_enriched.json';
 
 // Ensure data directory exists
 if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
 
 // Delete old DB
-if (fs.existsSync(DB_PATH)) fs.unlinkSync(DB_PATH);
+// if (fs.existsSync(DB_PATH)) fs.unlinkSync(DB_PATH);
 
 const db = new Database(DB_PATH);
 db.pragma('journal_mode = WAL');
 
 console.log('Creating tables...');
 db.exec(`
-  CREATE TABLE regions (
+  CREATE TABLE IF NOT EXISTS regions (
     region_id INTEGER PRIMARY KEY AUTOINCREMENT,
     region_name TEXT UNIQUE NOT NULL,
     domain TEXT,
     total_chapters INTEGER DEFAULT 0,
     total_members INTEGER DEFAULT 0
   );
-  CREATE TABLE chapters (
+  CREATE TABLE IF NOT EXISTS chapters (
     chapter_id INTEGER PRIMARY KEY,
     chapter_name TEXT NOT NULL,
     region_id INTEGER,
@@ -49,7 +49,7 @@ db.exec(`
     org_type TEXT,
     FOREIGN KEY (region_id) REFERENCES regions(region_id)
   );
-  CREATE TABLE members (
+  CREATE TABLE IF NOT EXISTS members (
     member_id INTEGER PRIMARY KEY AUTOINCREMENT,
     full_name TEXT NOT NULL,
     profession TEXT,
@@ -58,7 +58,32 @@ db.exec(`
     city TEXT,
     chapter_id INTEGER,
     region_id INTEGER,
-    domain TEXT
+    domain TEXT,
+    encrypted_id TEXT,
+    phone TEXT,
+    direct_phone TEXT,
+    mobile TEXT,
+    fax TEXT,
+    email TEXT,
+    street_address TEXT,
+    area TEXT,
+    state TEXT,
+    pincode TEXT,
+    country TEXT DEFAULT 'IN',
+    country_code TEXT,
+    chapter_name TEXT,
+    region_name TEXT,
+    website TEXT,
+    linkedin TEXT,
+    facebook TEXT,
+    twitter TEXT,
+    instagram TEXT,
+    ideal_referral TEXT,
+    top_product TEXT,
+    latitude REAL,
+    longitude REAL,
+    FOREIGN KEY (chapter_id) REFERENCES chapters(chapter_id),
+    FOREIGN KEY (region_id) REFERENCES regions(region_id)
   );
   CREATE INDEX idx_chapters_region ON chapters(region_id);
   CREATE INDEX idx_chapters_lat_lng ON chapters(latitude, longitude);
@@ -178,8 +203,12 @@ function professionCategory(prof: string): string {
 
 console.log(`Inserting ${members.length} members...`);
 const insertMember = db.prepare(`
-  INSERT INTO members (full_name, profession, profession_category, company_name, city, chapter_id, region_id, domain)
-  VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+  INSERT INTO members (
+    full_name, profession, profession_category, company_name, city, chapter_id, region_id, domain,
+    encrypted_id, phone, direct_phone, mobile, fax, email, street_address, area, state, pincode,
+    website, facebook, linkedin, twitter, instagram, ideal_referral, top_product
+  )
+  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 `);
 
 // Build valid chapter ID set + name->id map
@@ -222,7 +251,24 @@ const insertMembersBatch = db.transaction((batch: any[]) => {
       m.city || '',
       chapterId,
       regionId,
-      m.domain || ''
+      m.domain || '',
+      m.encrypted_id || '',
+      m.phone || '',
+      m.direct_phone || '',
+      m.mobile || '',
+      m.fax || '',
+      m.email || '',
+      m.street_address || '',
+      m.area || '',
+      m.state || '',
+      m.pincode || '',
+      m.website || '',
+      m.facebook || '',
+      m.linkedin || '',
+      m.twitter || '',
+      m.instagram || '',
+      m.ideal_referral || '',
+      m.top_product || ''
     );
   }
 });

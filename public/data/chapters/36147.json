@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 36147,
+    "chapter_name": "Fantabulous",
+    "region_id": 114,
+    "venue_name": "Baner Road",
+    "address": "Pune, India",
+    "city": "Pune",
+    "state": "",
+    "latitude": 18.5204303,
+    "longitude": 73.8567437,
+    "meeting_day": "Thursday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-punenorth.in",
+    "detail_url": "chapterdetails.php?chapterId=36147&name=Fantabulous&t=6055a508a35fb4743189c5b6f9c39b29a6226a2f37abdfe8d21e685e23d06a53",
+    "org_type": "CHAPTER"
+  },
+  "members": [],
+  "professions": []
+}

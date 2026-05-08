@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 45441,
+    "chapter_name": "Romulus",
+    "region_id": 2,
+    "venue_name": "Hotel Novotel",
+    "address": "Iscon Cross Roads,Next To Wide Angle Cinema, S G Highway , Ahmedabad, Gujarat, India, 380015",
+    "city": "Iscon Cross Roads",
+    "state": "Gujarat",
+    "latitude": 23.0394444,
+    "longitude": 72.5125,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=45441&name=Romulus&t=fea4130f53c0bc6faff4030e8007de9df4e8651a26c970cb0fd210112ee48dff",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 12903,
+      "full_name": "CA Dakshesh Jain",
+      "profession": null,
+      "profession_category": "Consulting (Other)",
+      "company_name": "J D H & Associates",
+      "city": "Ahmedabad",
+      "chapter_id": 45441,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2312370",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.0394444,
+      "longitude": 72.5125,
+      "country_code": null,
+      "chapter_name": "Romulus",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Consulting (Other)",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 42497,
+    "chapter_name": "Arrow",
+    "region_id": 48,
+    "venue_name": "Crowne Plaza Greater Noida, an IHG Hotel",
+    "address": "Surajpur Chowk Institutional Green, , Greater Noida, Uttar Pradesh, India,  201306",
+    "city": "Surajpur Chowk Institutional Green",
+    "state": "Uttar Pradesh",
+    "latitude": 28.5705138,
+    "longitude": 77.4388116,
+    "meeting_day": "Tuesday",
+    "meeting_time": "7:25 AM - 8:55 AM",
+    "meeting_schedule": "Meets : Every Tuesday, 7:25 AM - 8:55 AM",
+    "total_members": 0,
+    "domain": "bni-greaternoida.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

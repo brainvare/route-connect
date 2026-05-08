@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 32780,
+    "chapter_name": "HALLMARK",
+    "region_id": 27,
+    "venue_name": "Olive Downtown",
+    "address": "28/286, Jn, Kadavanthra Junction, , Kadavanthra,, Kochi, KERALA, India, 682020",
+    "city": "28/286",
+    "state": "",
+    "latitude": 9.9674743,
+    "longitude": 76.2997704,
+    "meeting_day": "Friday",
+    "meeting_time": "7:00 AM - 10:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:00 AM - 10:00 AM",
+    "total_members": 0,
+    "domain": "bni-cochin.in",
+    "detail_url": "chapterdetails.php?chapterId=32780&name=HALLMARK&t=ffae4c3bd8436f3c772fbfee284ce69559714da623ce03f0ab3f2ef3f12a15f4",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 6495,
+      "full_name": "GREESHMA S P",
+      "profession": null,
+      "profession_category": "Web Development",
+      "company_name": "CPOOL DIGITAL LEARNING",
+      "city": "KAKKANAD",
+      "chapter_id": 32780,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "KERALA",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2037960",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 9.9674743,
+      "longitude": 76.2997704,
+      "country_code": null,
+      "chapter_name": "HALLMARK",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Web Development",
+      "count": 1
+    }
+  ]
+}

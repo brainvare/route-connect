@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47056,
+    "chapter_name": "BNI Venus",
+    "region_id": 95,
+    "venue_name": "Novotel Mumbai International Airport",
+    "address": "CTS NO 1359, Next to Airport Metro Station Entrance No 3, Marol, Andheri Kurla Road, Andheri East, Maharashtra, India, 400059",
+    "city": "CTS NO 1359",
+    "state": "Maharashtra",
+    "latitude": 19.1077794,
+    "longitude": 72.8791554,
+    "meeting_day": "Friday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-mumbaiwest.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46389,
+    "chapter_name": "Emerald",
+    "region_id": 124,
+    "venue_name": "Marriott",
+    "address": "Secunderabad, Near tank Bund, India",
+    "city": "Secunderabad",
+    "state": "",
+    "latitude": 17.4238798,
+    "longitude": 78.4738215,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-secunderabad.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

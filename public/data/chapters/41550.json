@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 41550,
+    "chapter_name": "BNI Synergy",
+    "region_id": 79,
+    "venue_name": "Royal Calcutta Golf Club",
+    "address": "18 Golf Club Road, Tollygunge, Kolkata, India, India, 700033",
+    "city": "18 Golf Club Road",
+    "state": "",
+    "latitude": 22.4962086,
+    "longitude": 88.3471809,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-kolkatasouth.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

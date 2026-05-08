@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 40439,
+    "chapter_name": "BNI Swatantra",
+    "region_id": 101,
+    "venue_name": "SSK Solitaire",
+    "address": "Ahilyabai Holkar Marg, Mumbai Naka, , Tidke Colony,, Nasik, Maharashtra, India, 422002",
+    "city": "Ahilyabai Holkar Marg",
+    "state": "Maharashtra",
+    "latitude": 19.9925259,
+    "longitude": 73.7744367,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-nasik.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

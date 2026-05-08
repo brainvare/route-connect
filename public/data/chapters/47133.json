@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47133,
+    "chapter_name": "BNI Vibee",
+    "region_id": 8,
+    "venue_name": "Taj Yeshwantpur",
+    "address": "2275, Tumkur Rd, Yeshwanthpur Industrial Area, Phase 1, Yeswanthpur, Bangalore, Karnataka, India, 560022",
+    "city": "Tumkur Rd",
+    "state": "Karnataka",
+    "latitude": 13.027916,
+    "longitude": 77.54234579999999,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-bangalore.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 25739,
+    "chapter_name": "Vinci",
+    "region_id": 2,
+    "venue_name": "Renaissance Hotel,",
+    "address": "Behind Ganesh Meridian, Sola,, S. G. Highway, Sola, , Ahmedabad,, Gujarat, India, 380060",
+    "city": "Behind Ganesh Meridian",
+    "state": "Gujarat",
+    "latitude": 23.0252794,
+    "longitude": 72.5071099,
+    "meeting_day": "Wednesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=25739&name=Vinci&t=d3fa82a9fe8a9e5469e710575a2fad84517c0142bdb32b261b977a5e632c6c5e",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 11316,
+      "full_name": "K C Sharma",
+      "profession": null,
+      "profession_category": "Videographer/Film Producer",
+      "company_name": "Illustrate brandz",
+      "city": "Ahmedabad",
+      "chapter_id": 25739,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2225203",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.0252794,
+      "longitude": 72.5071099,
+      "country_code": null,
+      "chapter_name": "Vinci",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Videographer/Film Producer",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47175,
+    "chapter_name": "BNI Lakshya",
+    "region_id": 92,
+    "venue_name": "Vihang's Palm Club",
+    "address": "Pokharan Road Number 1, Opposite Raymonds, Vartak Nagar, Thane West, Mumbai, Maharashtra, India, 400606",
+    "city": "Pokharan Road Number 1",
+    "state": "Maharashtra",
+    "latitude": 19.2069038,
+    "longitude": 72.9571544,
+    "meeting_day": "Friday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-mumbainortheast.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 43741,
+    "chapter_name": "Nikolaus",
+    "region_id": 2,
+    "venue_name": "Hotel Novotel",
+    "address": "Iscon Cross Roads,Next To Wide Angle Cinema, S G Highway , Ahmedabad, Gujarat, India, 380015",
+    "city": "Iscon Cross Roads",
+    "state": "Gujarat",
+    "latitude": 23.0394444,
+    "longitude": 72.5125,
+    "meeting_day": "Tuesday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Tuesday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=43741&name=Nikolaus&t=0d5b499c251bfd204e484219afb11c234c1c910736ad991fd6b92d7941603d7a",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 10805,
+      "full_name": "Chainaram Prajapat",
+      "profession": null,
+      "profession_category": "CCTV",
+      "company_name": "Supreme Technocom",
+      "city": "Ahmedabad",
+      "chapter_id": 43741,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2213782",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.0394444,
+      "longitude": 72.5125,
+      "country_code": null,
+      "chapter_name": "Nikolaus",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "CCTV",
+      "count": 1
+    }
+  ]
+}

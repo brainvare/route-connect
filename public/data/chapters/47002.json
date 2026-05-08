@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47002,
+    "chapter_name": "Titan",
+    "region_id": 84,
+    "venue_name": "Radisson Hotel Kandla",
+    "address": "Survey No. 68, 1, Airport Rd, Galpadar,, Gandhidham, Gujarat , India, 370201",
+    "city": "Survey No. 68",
+    "state": "Gujarat",
+    "latitude": 23.0855506,
+    "longitude": 70.10824579999999,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-kutch.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

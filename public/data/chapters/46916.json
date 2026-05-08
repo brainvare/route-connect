@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46916,
+    "chapter_name": "BNI Nexa",
+    "region_id": 95,
+    "venue_name": "Fairfield by Marriott Mumbai",
+    "address": "International Airport, Plot No. 16-B, Samhita Industrial Estate, Andheri - Kurla Road,, Mumbai, MH, India,  400072",
+    "city": "International Airport",
+    "state": "",
+    "latitude": 19.0997359,
+    "longitude": 72.880209,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-mumbaiwest.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

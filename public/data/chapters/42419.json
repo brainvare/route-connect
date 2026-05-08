@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 42419,
+    "chapter_name": "BNI Karobaar",
+    "region_id": 67,
+    "venue_name": "The Alcor Hotel",
+    "address": "Holding No.4, Ramdas Bhatta,, New Rani Kudar, Bistupur, Jamshedpur, Jharkhand, India, 831001",
+    "city": "Holding No.4",
+    "state": "Jharkhand",
+    "latitude": 22.7969348,
+    "longitude": 86.1770866,
+    "meeting_day": "Tuesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Tuesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-jamshedpur.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

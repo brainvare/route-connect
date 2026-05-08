@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 34512,
+    "chapter_name": "BNI Energy",
+    "region_id": 3,
+    "venue_name": "Zoom Online Meeting",
+    "address": "Online, Bangalore, India",
+    "city": "Online",
+    "state": "",
+    "latitude": 12.994646,
+    "longitude": 77.552702,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-ajmeralwardistrict.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

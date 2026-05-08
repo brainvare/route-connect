@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 45517,
+    "chapter_name": "BNI Neptune",
+    "region_id": 82,
+    "venue_name": "Hotel White Gate Residency",
+    "address": "Valiyakavala,, Vaikom,, Kottayam, Kerala, India,  686141",
+    "city": "Valiyakavala",
+    "state": "Kerala",
+    "latitude": 9.7573748,
+    "longitude": 76.3957863,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-kottayam.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

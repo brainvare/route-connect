@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46440,
+    "chapter_name": "BNI Falcon",
+    "region_id": 94,
+    "venue_name": "Sunville Banquets",
+    "address": "9, Dr Annie Besant Road, Worli, Worli, Mumbai, Maharashtra, India, 400018",
+    "city": "Dr Annie Besant Road",
+    "state": "Maharashtra",
+    "latitude": 18.994351,
+    "longitude": 72.81481,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-mumbaisouth.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

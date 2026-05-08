@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 46695,
+    "chapter_name": "BNI Florentino",
+    "region_id": 2,
+    "venue_name": "Hotel Novotel",
+    "address": "Iscon Cross Road, Next to Wide Angle Cinema, S G Highway, Ahmedabad, Gujarat, India, 380015",
+    "city": "Iscon Cross Road",
+    "state": "Gujarat",
+    "latitude": 23.023975,
+    "longitude": 72.507111,
+    "meeting_day": "Friday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=46695&name=BNI+Florentino&t=d07cc1b3e24886245484b6b3ca74ce81b3a1f68f11ff61e3a73c33cedd62c95b",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 11336,
+      "full_name": "Dr Alap C Shah",
+      "profession": null,
+      "profession_category": "Dentist",
+      "company_name": "Dev Dental Care",
+      "city": "Ahmedabad",
+      "chapter_id": 46695,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2396785",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.023975,
+      "longitude": 72.507111,
+      "country_code": null,
+      "chapter_name": "BNI Florentino",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Dentist",
+      "count": 1
+    }
+  ]
+}

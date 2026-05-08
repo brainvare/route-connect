@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 44443,
+    "chapter_name": "Stellar",
+    "region_id": 46,
+    "venue_name": "Neelams The Grand Hotel, Calangute",
+    "address": "Neelams The Grand Hotel, Calangute, Calangute, Goa, India, 403516",
+    "city": "Neelams The Grand Hotel",
+    "state": "Goa",
+    "latitude": 15.5442782,
+    "longitude": 73.765692,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-goa.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 36874,
+    "chapter_name": "Faustus",
+    "region_id": 2,
+    "venue_name": "DoubleTree by Hilton",
+    "address": "Ambli Rd, Vikram Nagar,, Ahmedabad,,  Gujarat , India, 380058",
+    "city": "Ambli Rd",
+    "state": "Gujarat",
+    "latitude": 23.0277693,
+    "longitude": 72.5018676,
+    "meeting_day": "Tuesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Tuesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=36874&name=Faustus&t=3bb7e207f70e1182e20124d6a63aba9eeaeccf858dd0b93aa8176d2d0ef4fefd",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 10967,
+      "full_name": "LOKESH BOTHRA",
+      "profession": null,
+      "profession_category": "Stock Broker",
+      "company_name": "CHANDRAKALA BROKING SERVICES PVT LTD",
+      "city": "Ahmedabad",
+      "chapter_id": 36874,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Gujarat",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2154039",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 23.0277693,
+      "longitude": 72.5018676,
+      "country_code": null,
+      "chapter_name": "Faustus",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Stock Broker",
+      "count": 1
+    }
+  ]
+}

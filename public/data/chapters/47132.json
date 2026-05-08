@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 47132,
+    "chapter_name": "BNI Wave",
+    "region_id": 8,
+    "venue_name": "Sheraton Grand Bangalore Hotel at Brigade Gateway",
+    "address": "6/1, Dr Rajkumar Rd, Malleswaram, Rajajinagar, Bangalore, India, India, 560055",
+    "city": "6/1",
+    "state": "",
+    "latitude": 12.9988493,
+    "longitude": 77.55249210000001,
+    "meeting_day": "Tuesday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Tuesday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-bangalore.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

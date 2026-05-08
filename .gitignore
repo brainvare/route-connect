@@ -48,3 +48,5 @@ data/*.db-shm
 !data/bni.db
 out/
 data/bni.db
+data/bni.db
+public/data/members.json

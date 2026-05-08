@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 46070,
+    "chapter_name": "BNI Symphony",
+    "region_id": 87,
+    "venue_name": "AYURGREEN",
+    "address": "KAVILPADI, TIRUR ROAD, EDAPPAL, KERALA, India, 679582",
+    "city": "KAVILPADI",
+    "state": "",
+    "latitude": 10.8016951,
+    "longitude": 76.00826339999999,
+    "meeting_day": "Wednesday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Wednesday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-malappuram.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

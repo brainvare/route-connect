@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 44297,
+    "chapter_name": "Zeal",
+    "region_id": 23,
+    "venue_name": "Zoom Meeting",
+    "address": "Online, India",
+    "city": "Online",
+    "state": "",
+    "latitude": 13.078984,
+    "longitude": 80.241781,
+    "meeting_day": "Friday",
+    "meeting_time": "7:00 AM - 8:30 AM",
+    "meeting_schedule": "Meets : Every Friday, 7:00 AM - 8:30 AM",
+    "total_members": 0,
+    "domain": "bni-chennaicbda.in",
+    "detail_url": "",
+    "org_type": "CORE_GROUP"
+  },
+  "members": [],
+  "professions": []
+}

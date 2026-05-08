@@ -1,0 +1,62 @@
+{
+  "chapter": {
+    "chapter_id": 37972,
+    "chapter_name": "BNI HARMONY",
+    "region_id": 87,
+    "venue_name": "Edappal",
+    "address": "Creative Business Hill, Edappal, Kerala, India, 679585",
+    "city": "Creative Business Hill",
+    "state": "Kerala",
+    "latitude": 10.7751774,
+    "longitude": 76.0334014,
+    "meeting_day": "Thursday",
+    "meeting_time": "7:30 AM - 9:00 AM",
+    "meeting_schedule": "Meets : Every Thursday, 7:30 AM - 9:00 AM",
+    "total_members": 0,
+    "domain": "bni-malappuram.in",
+    "detail_url": "chapterdetails.php?chapterId=37972&name=BNI+HARMONY&t=d78dc153cd44f5de6f3b8a05abf9ef9eb44daf62695cc66cbe7e328d87965972",
+    "org_type": "CHAPTER"
+  },
+  "members": [
+    {
+      "member_id": 7668,
+      "full_name": "Shajeer P",
+      "profession": null,
+      "profession_category": "Retail (Other)",
+      "company_name": "Marwa Trade Links",
+      "city": "Ponnani",
+      "chapter_id": 37972,
+      "region_id": null,
+      "domain": null,
+      "encrypted_id": null,
+      "phone": "",
+      "direct_phone": null,
+      "mobile": null,
+      "fax": null,
+      "email": "",
+      "street_address": "",
+      "area": null,
+      "state": "Kerala",
+      "pincode": null,
+      "country": "IN",
+      "website": "https://www.bniconnectglobal.com/web/secure/networkHome?userId=2012708",
+      "linkedin": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "ideal_referral": null,
+      "top_product": null,
+      "latitude": 10.7751774,
+      "longitude": 76.0334014,
+      "country_code": null,
+      "chapter_name": "BNI HARMONY",
+      "region_name": null
+    }
+  ],
+  "professions": [
+    {
+      "profession_category": "Retail (Other)",
+      "count": 1
+    }
+  ]
+}

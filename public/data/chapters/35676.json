@@ -1,0 +1,22 @@
+{
+  "chapter": {
+    "chapter_id": 35676,
+    "chapter_name": "Odysseus",
+    "region_id": 2,
+    "venue_name": "Hotel Marriot",
+    "address": "Ramdev Nagar Cross Road,,  Satellite Road, , Ahmedabad, Gujarat, India,  380015",
+    "city": "Ramdev Nagar Cross Road",
+    "state": "Gujarat",
+    "latitude": 23.0271484,
+    "longitude": 72.5085157,
+    "meeting_day": "Thursday",
+    "meeting_time": "8:00 AM - 9:30 AM",
+    "meeting_schedule": "Meets : Every Thursday, 8:00 AM - 9:30 AM",
+    "total_members": 0,
+    "domain": "bni-ahmedabad.in",
+    "detail_url": "chapterdetails.php?chapterId=35676&name=Odysseus&t=047f341bd06c989531927582a7c0c9067ba6a8c63e6278ee6670a7bf793bba88",
+    "org_type": "CHAPTER"
+  },
+  "members": [],
+  "professions": []
+}
